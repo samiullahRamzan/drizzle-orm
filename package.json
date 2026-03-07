@@ -1,0 +1,35 @@
+{
+  "name": "drizzle-orm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "generate": "drizzle-kit generate",
+    "drop": "drizzle-kit drop",
+    "migrate": "drizzle-kit migrate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiullahRamzan/drizzle-orm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samiullahRamzan/drizzle-orm/issues"
+  },
+  "homepage": "https://github.com/samiullahRamzan/drizzle-orm#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "@types/pg": "^8.18.0",
+    "drizzle-kit": "^0.31.9",
+    "tsx": "^4.21.0"
+  }
+}
